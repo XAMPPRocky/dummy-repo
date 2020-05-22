@@ -1,0 +1,11 @@
+name: Rust
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: XAMPPRocky/dummy-action@master
+      with:
+        milliseconds: 1000
